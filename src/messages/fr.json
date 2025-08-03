@@ -1,0 +1,237 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "download": "Télécharger l'app",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité"
+  },
+  "hero": {
+    "title": "Souvenez-vous de chaque jour important",
+    "subtitle": "Nous livrons des bouquets spéciaux pour vos moments spéciaux",
+    "cta": "Télécharger notre application"
+  },
+  "about": {
+    "title": "À propos de Jerm memories",
+    "subtitle": "Nous sommes passionnés par le fait de rendre chaque moment spécial inoubliable grâce à de belles fleurs et à la technologie intelligente.",
+    "description": "Jerm memories est votre partenaire de confiance pour créer des moments inoubliables grâce à la livraison de belles fleurs et à la technologie de planification intelligente. Nous combinons l'art du design floral avec une technologie de pointe pour vous assurer de ne jamais manquer une date importante.",
+    "features": {
+      "title": "Pourquoi choisir Jerm memories ?",
+      "description": "Notre service complet combine de belles fleurs avec une technologie intelligente pour que chaque moment spécial compte.",
+      "pricing": "Prix compétitifs avec des coûts transparents et sans frais cachés",
+      "delivery": "Service de livraison fiable avec suivi en temps réel et planification flexible"
+    }
+  },
+  "services": {
+    "title": "Nos services",
+    "description": "L'idée est de choisir des bouquets, programmer tous les événements et nous livrerons vos bouquets à temps avec de petites surprises.",
+    "features": [
+      "Choisissez parmi de beaux bouquets",
+      "Programmez la livraison pour des dates spéciales",
+      "Messages personnalisés avec codes QR",
+      "Livraison gratuite à Erevan",
+      "Meilleurs prix garantis"
+    ]
+  },
+  "download": {
+    "title": "Téléchargez nos applications mobiles",
+    "subtitle": "Disponible pour iOS et Android",
+    "ios": "Télécharger pour iOS",
+    "android": "Télécharger pour Android"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : Décembre 2024",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptation des conditions",
+        "content": "En accédant et en utilisant notre application, vous acceptez et acceptez d'être lié par les termes et dispositions de cet accord."
+      },
+      "services": {
+        "title": "Services",
+        "content": "Nous fournissons des services de livraison de bouquets avec des capacités de programmation. Nos services incluent la livraison de fleurs et de messages personnalisés."
+      },
+      "userResponsibilities": {
+        "title": "Responsabilités de l'utilisateur",
+        "content": "Les utilisateurs sont responsables de fournir des informations de livraison précises et de s'assurer que quelqu'un est disponible pour recevoir les livraisons."
+      },
+      "payment": {
+        "title": "Conditions de paiement",
+        "content": "Le paiement est requis au moment de la commande. Nous acceptons diverses méthodes de paiement comme indiqué lors du paiement."
+      },
+      "cancellation": {
+        "title": "Politique d'annulation",
+        "content": "Les commandes peuvent être annulées jusqu'à 24 heures avant la livraison prévue. Les remboursements seront traités selon notre politique de remboursement."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : Décembre 2024",
+    "sections": {
+      "dataCollection": {
+        "title": "Collecte de données",
+        "content": "Nous ne collectons et n'utilisons que les données dont nous avons besoin pour fournir nos services. Vos données ne seront pas partagées avec des tiers."
+      },
+      "personalInfo": {
+        "title": "Informations personnelles",
+        "content": "Nous collectons des informations telles que le nom, l'adresse, le numéro de téléphone et l'adresse e-mail nécessaires au traitement des commandes et à la livraison."
+      },
+      "usage": {
+        "title": "Comment nous utilisons vos données",
+        "content": "Vos données sont utilisées uniquement pour le traitement des commandes, la coordination de la livraison et le service client. Nous ne vendons ni ne partageons vos informations."
+      },
+      "security": {
+        "title": "Sécurité des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre l'accès ou la divulgation non autorisés."
+      },
+      "rights": {
+        "title": "Vos droits",
+        "content": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles. Contactez-nous pour exercer ces droits."
+      }
+    }
+  },
+  "faq": {
+    "title": "Foire aux questions",
+    "subtitle": "Tout ce que vous devez savoir sur notre service de livraison de bouquets",
+    "questions": [
+      { "question": "Comment fonctionne la planification ?", "answer": "Il vous suffit de définir vos dates importantes dans l'application, et nous vous rappellerons automatiquement et livrerons de magnifiques bouquets à ces occasions spéciales." },
+      { "question": "Puis-je personnaliser mes préférences de bouquet ?", "answer": "Oui ! Vous pouvez définir vos fleurs, couleurs et préférences de livraison favorites dans les paramètres de votre profil." },
+      { "question": "Que faire si je dois changer une date de livraison ?", "answer": "Vous pouvez facilement modifier toute livraison programmée jusqu'à 24 heures avant l'heure de livraison via l'application." },
+      { "question": "Livrez-vous les week-ends et jours fériés ?", "answer": "Oui, nous livrons 7 jours sur 7, y compris les jours fériés. Nous comprenons que les occasions spéciales n'attendent pas les jours ouvrables." },
+      { "question": "Que se passe-t-il si le destinataire n'est pas chez lui ?", "answer": "Nous contacterons le destinataire pour convenir du meilleur moment de livraison, ou laisserons le bouquet dans un endroit sûr avec une confirmation photo." },
+      { "question": "Puis-je envoyer des bouquets à l'international ?", "answer": "Actuellement, nous livrons en Arménie. Nous travaillons à l'extension de la livraison internationale prochainement." },
+      { "question": "Combien de temps à l'avance dois-je programmer ?", "answer": "Vous pouvez programmer jusqu'à un an à l'avance. Nous recommandons au moins 48 heures à l'avance pour le meilleur choix." },
+      { "question": "Quels moyens de paiement acceptez-vous ?", "answer": "Nous acceptons toutes les principales cartes de crédit, cartes de débit et moyens de paiement mobiles, y compris Apple Pay et Google Pay." }
+    ],
+    "stillHaveQuestions": "Vous avez encore des questions ?",
+    "contactSupportPrompt": "Vous ne trouvez pas la réponse que vous cherchez ? Notre équipe de support est là pour vous aider.",
+    "contactSupport": "Contacter le support",
+    "contactForm": "Formulaire de contact"
+  },
+
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Des questions sur notre service de livraison de bouquets ? Nous serions ravis de vous répondre.",
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom",
+      "placeholderName": "Votre nom complet",
+      "email": "E-mail",
+      "placeholderEmail": "votre.email@exemple.com",
+      "subject": "Sujet",
+      "selectSubject": "Sélectionnez un sujet",
+      "general": "Demande générale",
+      "support": "Support technique",
+      "billing": "Question de facturation",
+      "delivery": "Problème de livraison",
+      "message": "Message",
+      "placeholderMessage": "Dites-nous comment nous pouvons vous aider...",
+      "send": "Envoyer le message"
+    },
+    "info": {
+      "title": "Informations de contact",
+      "emailTitle": "E-mail",
+      "phoneTitle": "Téléphone",
+      "addressTitle": "Adresse",
+      "address": "1 Place de la République, Erevan, Arménie, 0010",
+      "hoursTitle": "Horaires d'ouverture",
+      "hours": {
+        "weekdays": "Lundi - Vendredi : 9h00 - 18h00",
+        "saturday": "Samedi : 10h00 - 16h00",
+        "sunday": "Dimanche : Fermé"
+      }
+    }
+  },
+  "header": {
+    "appName": "Jerm memories",
+    "about": "À propos",
+    "services": "Services",
+    "download": "Télécharger"
+  },
+  "footer": {
+    "appName": "Jerm memories",
+    "slogan": "Nous livrons des bouquets spéciaux pour vos moments spéciaux. Programmez une fois, souvenez-vous pour toujours.",
+    "contact": "Contact",
+    "support": "Support",
+    "about": "À propos de nous",
+    "faq": "FAQ",
+    "contactLink": "Contact",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "copyright": "© 2024 Jerm memories. Tous droits réservés."
+  },
+  "filter": {
+    "allCategories": "Toutes les catégories",
+    "sortNameAsc": "Nom A-Z",
+    "sortNameDesc": "Nom Z-A",
+    "sortPriceAsc": "Prix croissant",
+    "sortPriceDesc": "Prix décroissant",
+    "apply": "Appliquer les filtres",
+    "searchPlaceholder": "Rechercher des bouquets..."
+  },
+  "bouquets": {
+    "schedule": "Programmer",
+    "noBouquets": "Aucun bouquet trouvé."
+  },
+  "schedule": {
+    "title": "Planifiez vos moments spéciaux",
+    "description": "Ne manquez plus jamais une date importante. Configurez vos rappels une fois et nous nous occuperons du reste avec de belles livraisons de fleurs.",
+    "android": "Obtenir sur Google Play",
+    "ios": "Télécharger sur l'App Store",
+    "cta": "Commencer à planifier"
+  },
+  "features": {
+    "title": "Pourquoi choisir Jerm memories?",
+    "subtitle": "Découvrez le mélange parfait de technologie et de tradition",
+    "items": [
+      {
+        "title": "Planification intelligente",
+        "description": "Configurez vos dates importantes une fois et ne vous inquiétez plus jamais de les oublier."
+      },
+      {
+        "title": "Beaux bouquets",
+        "description": "Compositions artisanales utilisant les fleurs les plus fraîches des producteurs locaux."
+      },
+      {
+        "title": "Livraison fiable",
+        "description": "Livraison à temps garantie avec suivi en temps réel et planification flexible."
+      },
+      {
+        "title": "Touche personnalisée",
+        "description": "Ajoutez des messages personnels et des codes QR pour rendre chaque livraison spéciale."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Rejoignez des milliers de clients satisfaits qui nous font confiance pour leurs moments spéciaux",
+    "items": [
+      {
+        "name": "Anna M.",
+        "text": "Jerm memories m'a sauvé d'oublier à nouveau l'anniversaire de ma mère. Les fleurs étaient magnifiques et livrées à temps!"
+      },
+      {
+        "name": "David K.",
+        "text": "La fonction de planification est incroyable. J'ai configuré toutes mes dates importantes une fois et maintenant je ne manque jamais d'occasions spéciales."
+      },
+      {
+        "name": "Maria S.",
+        "text": "Meilleur service de livraison de fleurs à Erevan. Les bouquets sont toujours frais et la livraison toujours à temps."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Tarification transparente",
+    "subtitle": "Aucuns frais cachés, juste de belles fleurs à des prix équitables",
+    "delivery": "Livraison gratuite à Erevan",
+    "pricing": "Prix compétitifs à partir de 5000 drams",
+    "guarantee": "Garantie de satisfaction à 100%"
+  },
+  "cta": {
+    "title": "Prêt à ne jamais manquer une journée spéciale?",
+    "subtitle": "Téléchargez notre application et commencez à planifier vos moments importants aujourd'hui",
+    "button": "Télécharger maintenant"
+  }
+} 

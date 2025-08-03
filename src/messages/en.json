@@ -1,0 +1,252 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "download": "Download App",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy"
+  },
+  "hero": {
+    "title": "Remember Every Important Day",
+    "subtitle": "We deliver special bouquets to your special moments",
+    "cta": "Download Our App"
+  },
+  "about": {
+    "title": "About Jerm memories",
+    "subtitle": "We're passionate about making special moments unforgettable through beautiful flowers and smart technology.",
+    "description": "Jerm memories is your trusted partner for creating unforgettable moments through beautiful flower delivery and smart scheduling technology. We combine the artistry of floral design with cutting-edge technology to ensure you never miss an important date.",
+    "features": {
+      "title": "Why Choose Jerm memories?",
+      "description": "Our comprehensive service combines beautiful flowers with smart technology to make every special moment count.",
+      "pricing": "Competitive pricing with transparent costs and no hidden fees",
+      "delivery": "Reliable delivery service with real-time tracking and flexible scheduling"
+    },
+    "storyTitle": "Our Story",
+    "story1": "Jerm memories was born from a simple idea: what if you could never forget an important date again? Our founder, tired of missing birthdays and anniversaries, created a solution that combines beautiful flower delivery with smart scheduling technology.",
+    "story2": "Starting in Yerevan, Armenia, we've grown from a small local flower shop to a technology-driven delivery service that serves thousands of customers across the country.",
+    "missionTitle": "Our Mission",
+    "mission": "To make every special moment unforgettable through beautiful flowers and reliable delivery.",
+    "valuesTitle": "Our Values",
+    "values": {
+      "qualityTitle": "Quality First",
+      "quality": "We source only the freshest flowers from local growers to ensure every bouquet is beautiful and long-lasting.",
+      "reliabilityTitle": "Reliability",
+      "reliability": "Our smart scheduling system ensures you never miss an important date, with guaranteed on-time delivery.",
+      "careTitle": "Customer Care",
+      "care": "We treat every customer like family, providing personalized service and going above and beyond.",
+      "innovationTitle": "Innovation",
+      "innovation": "We continuously improve our technology to make flower delivery more convenient and memorable."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "The idea is to choose bouquets, schedule all events and we will deliver your bouquets at time with little surprises.",
+    "features": [
+      "Choose from beautiful bouquets",
+      "Schedule delivery for special dates",
+      "Personalized messages with QR codes",
+      "Free delivery in Yerevan",
+      "Best prices guaranteed"
+    ]
+  },
+  "download": {
+    "title": "Download Our Mobile Apps",
+    "subtitle": "Available for iOS and Android",
+    "ios": "Download for iOS",
+    "android": "Download for Android"
+  },
+  "footer": {
+    "appName": "Jerm memories",
+    "slogan": "We deliver special bouquets to your special moments. Schedule once, remember forever.",
+    "contact": "Contact",
+    "support": "Support",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contactLink": "Contact",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2024 Jerm memories. All rights reserved."
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: December 2024",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using our application, you accept and agree to be bound by the terms and provision of this agreement."
+      },
+      "services": {
+        "title": "Services",
+        "content": "We provide bouquet delivery services with scheduling capabilities. Our services include delivery of flowers and personalized messages."
+      },
+      "userResponsibilities": {
+        "title": "User Responsibilities",
+        "content": "Users are responsible for providing accurate delivery information and ensuring someone is available to receive deliveries."
+      },
+      "payment": {
+        "title": "Payment Terms",
+        "content": "Payment is required at the time of order. We accept various payment methods as indicated during checkout."
+      },
+      "cancellation": {
+        "title": "Cancellation Policy",
+        "content": "Orders can be cancelled up to 24 hours before scheduled delivery. Refunds will be processed according to our refund policy."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: December 2024",
+    "sections": {
+      "dataCollection": {
+        "title": "Data Collection",
+        "content": "We only collect and use data that we need for providing our services. Your data will not be shared with third parties."
+      },
+      "personalInfo": {
+        "title": "Personal Information",
+        "content": "We collect information such as name, address, phone number, and email address necessary for order processing and delivery."
+      },
+      "usage": {
+        "title": "How We Use Your Data",
+        "content": "Your data is used solely for order processing, delivery coordination, and customer service. We do not sell or share your information."
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "We implement appropriate security measures to protect your personal information from unauthorized access or disclosure."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, or delete your personal information. Contact us to exercise these rights."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our bouquet delivery service",
+    "questions": [
+      { "question": "How does the scheduling work?", "answer": "Simply set up your important dates once in the app, and we'll automatically remind you and deliver beautiful bouquets on those special occasions." },
+      { "question": "Can I customize my bouquet preferences?", "answer": "Yes! You can set your favorite flowers, colors, and delivery preferences in your profile settings." },
+      { "question": "What if I need to change a delivery date?", "answer": "You can easily modify any scheduled delivery up to 24 hours before the delivery time through the app." },
+      { "question": "Do you deliver on weekends and holidays?", "answer": "Yes, we deliver 7 days a week, including holidays. We understand that special occasions don't wait for business days." },
+      { "question": "What if the recipient is not home?", "answer": "We'll contact the recipient to arrange the best delivery time, or leave the bouquet in a safe location with photo confirmation." },
+      { "question": "Can I send bouquets internationally?", "answer": "Currently, we deliver within Armenia. We're working on expanding to international delivery soon." },
+      { "question": "How far in advance should I schedule?", "answer": "You can schedule up to a year in advance. We recommend at least 48 hours notice for the best selection." },
+      { "question": "What payment methods do you accept?", "answer": "We accept all major credit cards, debit cards, and mobile payment methods including Apple Pay and Google Pay." }
+    ],
+    "stillHaveQuestions": "Still have questions?",
+    "contactSupportPrompt": "Can't find the answer you're looking for? Our support team is here to help.",
+    "contactSupport": "Contact Support",
+    "contactForm": "Contact Form"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions about our bouquet delivery service? We'd love to hear from you.",
+    "form": {
+      "title": "Send us a Message",
+      "name": "Name",
+      "placeholderName": "Your full name",
+      "email": "Email",
+      "placeholderEmail": "your.email@example.com",
+      "subject": "Subject",
+      "selectSubject": "Select a subject",
+      "general": "General Inquiry",
+      "support": "Technical Support",
+      "billing": "Billing Question",
+      "delivery": "Delivery Issue",
+      "message": "Message",
+      "placeholderMessage": "Tell us how we can help you...",
+      "send": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "emailTitle": "Email",
+      "phoneTitle": "Phone",
+      "addressTitle": "Address",
+      "address": "Republic Square 1, Yerevan, Armenia, 0010",
+      "hoursTitle": "Business Hours",
+      "hours": {
+        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "saturday": "Saturday: 10:00 AM - 4:00 PM",
+        "sunday": "Sunday: Closed"
+      }
+    }
+  },
+  "header": {
+    "appName": "Jerm memories",
+    "about": "About",
+    "services": "Services",
+    "download": "Download"
+  },
+  "filter": {
+    "allCategories": "All Categories",
+    "sortNameAsc": "Name A-Z",
+    "sortNameDesc": "Name Z-A",
+    "sortPriceAsc": "Price Low-High",
+    "sortPriceDesc": "Price High-Low",
+    "apply": "Apply Filters",
+    "searchPlaceholder": "Search bouquets..."
+  },
+  "bouquets": {
+    "schedule": "Schedule",
+    "noBouquets": "No bouquets found."
+  },
+  "schedule": {
+    "title": "Schedule Your Special Moments",
+    "description": "Never miss an important date again. Set up your reminders once and we'll handle the rest with beautiful flower deliveries.",
+    "android": "Get it on Google Play",
+    "ios": "Download on the App Store",
+    "cta": "Start Scheduling Now"
+  },
+  "features": {
+    "title": "Why Choose Jerm memories?",
+    "subtitle": "Experience the perfect blend of technology and tradition",
+    "items": [
+      {
+        "title": "Smart Scheduling",
+        "description": "Set up your important dates once and never worry about forgetting them again."
+      },
+      {
+        "title": "Beautiful Bouquets",
+        "description": "Handcrafted arrangements using the freshest flowers from local growers."
+      },
+      {
+        "title": "Reliable Delivery",
+        "description": "On-time delivery guaranteed with real-time tracking and flexible scheduling."
+      },
+      {
+        "title": "Personalized Touch",
+        "description": "Add personal messages and QR codes to make every delivery special."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Join thousands of satisfied customers who trust us with their special moments",
+    "items": [
+      {
+        "name": "Anna M.",
+        "text": "Jerm memories saved me from forgetting my mom's birthday again. The flowers were beautiful and delivered right on time!"
+      },
+      {
+        "name": "David K.",
+        "text": "The scheduling feature is amazing. I set up all my important dates once and now I never miss any special occasion."
+      },
+      {
+        "name": "Maria S.",
+        "text": "Best flower delivery service in Yerevan. The bouquets are always fresh and the delivery is always on time."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "No hidden fees, just beautiful flowers at fair prices",
+    "delivery": "Free delivery in Yerevan",
+    "pricing": "Competitive prices starting from 5000 AMD",
+    "guarantee": "100% satisfaction guarantee"
+  },
+  "cta": {
+    "title": "Ready to Never Miss a Special Day?",
+    "subtitle": "Download our app and start scheduling your important moments today",
+    "button": "Download Now"
+  }
+} 
