@@ -60,6 +60,14 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  distDir: 'build',
+  experimental: {
+    // This is experimental but can
+    // be enabled to allow parallel threads
+    // with nextjs automatic static generation
+    workerThreads: false,
+    cpus: 4
+  }
 };
 
 const withNextIntl = createNextIntlPlugin();
