@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "node-dev": "nodemon",
+    "node-build": "next build && tsc --project tsconfig.server.json",
+    "node-start": "cross-env NODE_ENV=production node dist/server.js"
   },
   "dependencies": {
     "framer-motion": "^12.19.2",
@@ -22,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^10.0.0",
     "eslint": "^9",
     "eslint-config-next": "15.2.3",
     "tailwindcss": "^4",
