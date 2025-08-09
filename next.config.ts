@@ -61,11 +61,6 @@ const nextConfig: NextConfig = {
     ],
   },
   distDir: 'build',
-  experimental: {
-    // This tells Next.js to use Webpack for the build process
-    // instead of the experimental Turbopack bundler.
-    forceSwcTransforms: true,
-  }
 };
 
 const withNextIntl = createNextIntlPlugin();
