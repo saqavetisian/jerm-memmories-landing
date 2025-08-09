@@ -11,7 +11,8 @@
     "node-build": "next build && tsc --project tsconfig.server.json",
     "node-build-cpu": "cross-env NEXT_CPU_THREADS=1 next build && tsc --project tsconfig.server.json",
     "node-build-cpu-limit": "cross-env NEXT_CPU_THREADS=1 NODE_OPTIONS=--max-old-space-size=2048 next build && tsc --project tsconfig.server.json",
-    "node-start": "cross-env NODE_ENV=production node dist/server.js"
+    "node-start": "cross-env NODE_ENV=production node dist/server.js",
+    "node-build-disable": "cross-env NEXT_CPU_THREADS=1 NODE_OPTIONS=--no-warnings --disable-worker-threads next build && tsc --project tsconfig.server.json"
   },
   "dependencies": {
     "framer-motion": "^12.19.2",
