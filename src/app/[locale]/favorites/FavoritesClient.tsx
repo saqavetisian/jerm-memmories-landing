@@ -1,6 +1,5 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Heart, ShoppingBag, Trash2, Star } from 'lucide-react';
 import { useBasket } from '@/contexts/BasketContext';
@@ -10,7 +9,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function FavoritesClient() {
-  const router = useRouter();
   const { favorites, refreshBasket, refreshFavorites } = useBasket();
   const t = useTranslations();
 
@@ -115,7 +113,7 @@ export default function FavoritesClient() {
             {favorites.length} {favorites.length === 1 ? 'Favorite' : 'Favorites'} Saved
           </h3>
           <p className="text-gray-600 mb-6">
-            Keep track of your favorite bouquets and add them to your basket whenever you're ready to order.
+            Keep track of your favorite bouquets and add them to your basket whenever you&#39;re ready to order.
           </p>
           <Link 
             href="/bouquets"

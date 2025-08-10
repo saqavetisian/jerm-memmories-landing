@@ -27,7 +27,9 @@ class ApiService {
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
         const error = new Error(errorData.message || `HTTP error! status: ${response.status}`);
-        (error as any).response = { data: errorData, status: response.status };
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-expect-error
+        error.response = { data: errorData, status: response.status };
         throw error;
       }
 

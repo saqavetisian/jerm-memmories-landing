@@ -13,8 +13,8 @@ export default function CheckoutSuccessPage() {
           </h1>
           
           <p className="text-gray-600 mb-8">
-            Thank you for your order! We've received your request and will process it shortly. 
-            You'll receive a confirmation email with your order details.
+            Thank you for your order! We&#39;ve received your request and will process it shortly. 
+            You&#39;ll receive a confirmation email with your order details.
           </p>
           
           <div className="space-y-4">
