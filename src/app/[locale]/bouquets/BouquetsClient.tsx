@@ -229,7 +229,7 @@ export default function BouquetsClient({ searchParams }: BouquetsClientProps) {
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Min Price (֏)
+                  Min Price (AMD)
                 </label>
                 <input
                   type="number"
@@ -241,7 +241,7 @@ export default function BouquetsClient({ searchParams }: BouquetsClientProps) {
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Max Price (֏)
+                  Max Price (AMD)
                 </label>
                 <input
                   type="number"

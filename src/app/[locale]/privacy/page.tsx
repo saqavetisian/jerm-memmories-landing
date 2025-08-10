@@ -103,8 +103,8 @@ export default function PrivacyPage() {
             >
               <p className="text-gray-600 text-sm">
                 If you have any questions about our Privacy Policy, please contact us at{' '}
-                <Link href="mailto:privacy@Jerm memories.com" className="text-blue-600 hover:text-blue-700">
-                  privacy@Jerm memories.com
+                <Link href="mailto:privacy@jermmemories.com" className="text-blue-600 hover:text-blue-700">
+                  privacy@jermmemories.com
                 </Link>
               </p>
             </motion.div>

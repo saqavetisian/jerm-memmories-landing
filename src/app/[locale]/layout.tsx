@@ -5,6 +5,8 @@ import type {Metadata} from "next";
 import './globals.css'
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { BasketProvider } from '@/contexts/BasketContext';
+import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
   title: 'Jerm memories - Remember Every Important Day',
@@ -28,11 +30,14 @@ export default async function LocaleLayout({
     <html lang={locale}>
     <body>
     <NextIntlClientProvider>
-      <Header />
-      <main>
-        {children}
-      </main>
-      <Footer />
+      <BasketProvider>
+        <Header />
+        <main>
+          {children}
+        </main>
+        <Footer />
+        <Toaster />
+      </BasketProvider>
     </NextIntlClientProvider>
     </body>
     </html>

@@ -66,8 +66,8 @@ export default function Footer() {
               <Mail className="w-5 h-5 text-blue-400" />
               <span>{t('contact')}</span>
             </h4>
-            <p className="text-gray-300">info@Jerm memories.com</p>
-            <p className="text-gray-300">support@Jerm memories.com</p>
+            <p className="text-gray-300">info@jermmemories.com</p>
+            <p className="text-gray-300">support@jermmemories.com</p>
           </motion.div>
           
           <motion.div variants={itemVariants}>

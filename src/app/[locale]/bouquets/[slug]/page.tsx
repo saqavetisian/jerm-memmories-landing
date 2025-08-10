@@ -1,8 +1,7 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
 import api from '../../../../utils/api';
 import { notFound } from 'next/navigation';
-import ScheduleButton from '../../components/ScheduleButton';
+import BouquetDetailClient from './BouquetDetailClient';
 
 interface Bouquet {
   id: number;
@@ -62,36 +61,10 @@ export default async function BouquetPage({ params }: BouquetPageProps) {
 
   if (!bouquet) return null;
 
-  // Use translations on the client
-  // (If you want to use translations on the server, use next-intl/server)
-  // For now, only visible text is translated
-
   return (
-    <div className="max-w-2xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-        <div className="relative w-full h-80">
-          <Image
-            src={bouquet.image_url}
-            alt={bouquet.name}
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
-        <div className="p-6">
-          <h1 className="text-3xl font-bold mb-2">{bouquet.name}</h1>
-          <div className="flex items-center gap-2 mb-4">
-            <span className="text-blue-700 font-semibold text-xl">֏{bouquet.price.toLocaleString()}</span>
-            <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">{bouquet.category?.name}</span>
-          </div>
-          <p className="text-gray-700 mb-6">{bouquet.description}</p>
-          {bouquet.delivery_date && (
-            <div className="mb-4 text-gray-600">
-              <span className="font-medium">{/* t('bouquet.deliveryDate') */}Delivery Date:</span> {new Date(bouquet.delivery_date).toLocaleDateString()}
-            </div>
-          )}
-          <ScheduleButton />
-        </div>
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-blue-100">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <BouquetDetailClient bouquet={bouquet} />
       </div>
     </div>
   );

@@ -7,8 +7,11 @@ import {
   Heart, 
   Info, 
   Gift, 
-  Download 
+  Download,
+  ShoppingBag,
+  Star
 } from 'lucide-react';
+import { useBasket } from '@/contexts/BasketContext';
 
 interface HeaderProps {
   showNav?: boolean;
@@ -17,6 +20,7 @@ interface HeaderProps {
 export default function Header({ showNav = true }: HeaderProps) {
   const locale = useLocale();
   const t = useTranslations('header');
+  const { basketItemCount, favorites } = useBasket();
 
   const locales = [
     { code: 'hy', name: 'Հայերեն', flag: '🇦🇲' },
@@ -63,14 +67,14 @@ export default function Header({ showNav = true }: HeaderProps) {
                   <span>{t('about')}</span>
                 </motion.span>
               </Link>
-              <Link href={`/${locale}#services`}>
+              <Link href={`/${locale}/bouquets`}>
                 <motion.span
                     className="text-gray-700 hover:text-blue-700 transition-colors flex items-center space-x-1"
                     whileHover={{ y: -2 }}
                     transition={{ duration: 0.2 }}
                 >
                   <Gift className="w-4 h-4" />
-                  <span>{t('services')}</span>
+                  <span>Bouquets</span>
                 </motion.span>
               </Link>
               <Link href={`/${locale}#download`}>
@@ -87,6 +91,39 @@ export default function Header({ showNav = true }: HeaderProps) {
           )}
 
           <div className="flex items-center space-x-4">
+            {/* Favorites Icon */}
+            <Link href={`/${locale}/favorites`}>
+              <motion.div
+                className="relative"
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+              >
+                <Star className="w-6 h-6 text-gray-700 hover:text-blue-700 transition-colors" />
+                {favorites.length > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                    {favorites.length}
+                  </span>
+                )}
+              </motion.div>
+            </Link>
+
+            {/* Basket Icon */}
+            <Link href={`/${locale}/basket`}>
+              <motion.div
+                className="relative"
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+              >
+                <ShoppingBag className="w-6 h-6 text-gray-700 hover:text-blue-700 transition-colors" />
+                {basketItemCount > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-blue-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                    {basketItemCount}
+                  </span>
+                )}
+              </motion.div>
+            </Link>
+
+            {/* Language Selector */}
             <motion.div
               className="relative"
               whileHover={{ scale: 1.05 }}

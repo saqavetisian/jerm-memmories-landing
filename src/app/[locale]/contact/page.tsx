@@ -195,8 +195,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">{t('info.emailTitle')}</h3>
-                      <p className="text-gray-600">info@Jerm memories.com</p>
-                      <p className="text-gray-600">support@Jerm memories.com</p>
+                      <p className="text-gray-600">info@jermmemories.com</p>
+                      <p className="text-gray-600">support@jermmemories.com</p>
                     </div>
                   </motion.div>
                   

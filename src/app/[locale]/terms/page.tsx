@@ -103,8 +103,8 @@ export default function TermsPage() {
             >
               <p className="text-gray-600 text-sm">
                 If you have any questions about these Terms of Use, please contact us at{' '}
-                <Link href="mailto:legal@Jerm memories.com" className="text-blue-600 hover:text-blue-700">
-                  legal@Jerm memories.com
+                <Link href="mailto:legal@jermmemories.com" className="text-blue-600 hover:text-blue-700">
+                  legal@jermmemories.com
                 </Link>
               </p>
             </motion.div>
