@@ -21,6 +21,22 @@
       "description": "Notre service complet combine de belles fleurs avec une technologie intelligente pour que chaque moment spécial compte.",
       "pricing": "Prix compétitifs avec des coûts transparents et sans frais cachés",
       "delivery": "Service de livraison fiable avec suivi en temps réel et planification flexible"
+    },
+    "storyTitle": "Notre histoire",
+    "story1": "Jerm memories est né d'une idée simple : et si vous ne pouviez jamais oublier une date importante ? Notre fondateur, fatigué de manquer les anniversaires et les anniversaires, a créé une solution qui combine la livraison de belles fleurs avec la technologie de planification intelligente.",
+    "story2": "Commençant à Erevan, en Arménie, nous sommes passés d'un petit magasin de fleurs local à un service de livraison axé sur la technologie qui sert des milliers de clients à travers le pays.",
+    "missionTitle": "Notre mission",
+    "mission": "Rendre chaque moment spécial inoubliable grâce à de belles fleurs et une livraison fiable.",
+    "valuesTitle": "Nos valeurs",
+    "values": {
+      "qualityTitle": "La qualité d'abord",
+      "quality": "Nous nous approvisionnons uniquement en fleurs les plus fraîches auprès de producteurs locaux pour garantir que chaque bouquet soit beau et durable.",
+      "reliabilityTitle": "Fiabilité",
+      "reliability": "Notre système de planification intelligente garantit que vous ne manquerez jamais une date importante, avec une livraison garantie à temps.",
+      "careTitle": "Soins aux clients",
+      "care": "Nous traitons chaque client comme un membre de la famille, en fournissant un service personnalisé et en allant au-delà.",
+      "innovationTitle": "Innovation",
+      "innovation": "Nous améliorons continuellement notre technologie pour rendre la livraison de fleurs plus pratique et mémorable."
     }
   },
   "services": {
@@ -46,23 +62,35 @@
     "sections": {
       "acceptance": {
         "title": "Acceptation des conditions",
-        "content": "En accédant et en utilisant notre application, vous acceptez et acceptez d'être lié par les termes et dispositions de cet accord."
+        "content": "En accédant et en utilisant notre application, vous acceptez et acceptez d'être lié par les termes et dispositions de cet accord. Si vous n'acceptez pas de respecter ce qui précède, veuillez ne pas utiliser ce service."
       },
       "services": {
-        "title": "Services",
-        "content": "Nous fournissons des services de livraison de bouquets avec des capacités de programmation. Nos services incluent la livraison de fleurs et de messages personnalisés."
+        "title": "Description des services",
+        "content": "Nous fournissons des services de livraison de bouquets avec des capacités de planification intelligente. Nos services incluent : livraison de fleurs fraîches, messages personnalisés avec codes QR, suivi de livraison en temps réel, et planification flexible pour les occasions spéciales. Nous livrons actuellement en Arménie avec des projets d'expansion internationale."
       },
       "userResponsibilities": {
-        "title": "Responsabilités de l'utilisateur",
-        "content": "Les utilisateurs sont responsables de fournir des informations de livraison précises et de s'assurer que quelqu'un est disponible pour recevoir les livraisons."
+        "title": "Responsabilités de l'utilisateur et sécurité du compte",
+        "content": "Les utilisateurs sont responsables de : fournir des informations de livraison précises incluant les détails du destinataire et les adresses, s'assurer que quelqu'un est disponible pour recevoir les livraisons à l'heure spécifiée, maintenir la sécurité de leurs identifiants de compte, mettre à jour leurs informations lors de changements, et se conformer à toutes les lois et réglementations applicables."
       },
       "payment": {
-        "title": "Conditions de paiement",
-        "content": "Le paiement est requis au moment de la commande. Nous acceptons diverses méthodes de paiement comme indiqué lors du paiement."
+        "title": "Conditions de paiement et tarification",
+        "content": "Le paiement est requis au moment de la passation de commande. Nous acceptons diverses méthodes de paiement incluant les cartes de crédit, cartes de débit, et systèmes de paiement mobile. Tous les prix sont affichés en Dram arménien (AMD) et incluent les taxes applicables. Nous nous réservons le droit de modifier les prix avec un préavis de 30 jours. La livraison gratuite est fournie dans les limites de la ville d'Erevan."
       },
       "cancellation": {
-        "title": "Politique d'annulation",
-        "content": "Les commandes peuvent être annulées jusqu'à 24 heures avant la livraison prévue. Les remboursements seront traités selon notre politique de remboursement."
+        "title": "Politique d'annulation et de remboursement",
+        "content": "Les commandes peuvent être annulées jusqu'à 24 heures avant la livraison prévue sans pénalité. Les annulations effectuées moins de 24 heures avant la livraison peuvent entraîner des frais d'annulation de 50%. Les remboursements seront traités dans les 5-7 jours ouvrables sur la méthode de paiement originale. Les commandes personnalisées ou personnalisées peuvent ne pas être éligibles à l'annulation une fois la production commencée."
+      },
+      "delivery": {
+        "title": "Conditions de livraison",
+        "content": "Nous nous efforçons de livrer à la date et heure prévues. Les délais de livraison sont des estimations et peuvent varier en raison de la météo, du trafic ou d'autres circonstances hors de notre contrôle. Si personne n'est disponible pour recevoir la livraison, nous tenterons de contacter le destinataire et pourrons laisser le bouquet dans un endroit sûr avec confirmation photo. Nous ne sommes pas responsables des articles laissés sans surveillance."
+      },
+      "limitations": {
+        "title": "Limitations de responsabilité",
+        "content": "Notre responsabilité est limitée au coût du bouquet et du service de livraison. Nous ne sommes pas responsables des dommages indirects, accessoires ou consécutifs. Nous ne garantissons pas de variétés de fleurs spécifiques en raison de la disponibilité saisonnière et nous nous réservons le droit de substituer avec des fleurs de qualité similaire."
+      },
+      "modifications": {
+        "title": "Modifications des conditions",
+        "content": "Nous nous réservons le droit de modifier ces conditions à tout moment. Les utilisateurs seront informés des changements significatifs par email ou via l'application. L'utilisation continue de nos services après les modifications constitue l'acceptation des nouvelles conditions."
       }
     }
   },
@@ -71,24 +99,36 @@
     "lastUpdated": "Dernière mise à jour : Décembre 2024",
     "sections": {
       "dataCollection": {
-        "title": "Collecte de données",
-        "content": "Nous ne collectons et n'utilisons que les données dont nous avons besoin pour fournir nos services. Vos données ne seront pas partagées avec des tiers."
+        "title": "Informations que nous collectons",
+        "content": "Nous collectons les informations que vous nous fournissez directement, comme lorsque vous créez un compte, passez une commande ou nous contactez. Cela inclut : informations personnelles (nom, email, numéro de téléphone), informations de livraison (adresses, détails du destinataire), informations de paiement (traitées de manière sécurisée par nos partenaires de paiement), et préférences de communication. Nous collectons également des données d'utilisation pour améliorer nos services."
       },
       "personalInfo": {
-        "title": "Informations personnelles",
-        "content": "Nous collectons des informations telles que le nom, l'adresse, le numéro de téléphone et l'adresse e-mail nécessaires au traitement des commandes et à la livraison."
+        "title": "Détails des informations personnelles",
+        "content": "Nous collectons : informations de contact (nom, email, numéro de téléphone), adresses de livraison et informations du destinataire, informations de paiement (traitées de manière sécurisée et non stockées par nous), préférences et paramètres de compte, historique de communication avec notre équipe de support, et informations sur l'appareil pour la fonctionnalité de l'application. Nous ne collectons pas d'informations personnelles sensibles sauf si nécessaire pour la livraison du service."
       },
       "usage": {
-        "title": "Comment nous utilisons vos données",
-        "content": "Vos données sont utilisées uniquement pour le traitement des commandes, la coordination de la livraison et le service client. Nous ne vendons ni ne partageons vos informations."
+        "title": "Comment nous utilisons vos informations",
+        "content": "Nous utilisons vos informations pour : traiter et exécuter vos commandes, planifier et coordonner les livraisons, fournir un support client et répondre aux demandes, envoyer des mises à jour importantes sur vos commandes, améliorer nos services et développer de nouvelles fonctionnalités, envoyer des communications marketing (avec votre consentement), respecter les obligations légales, et prévenir la fraude et assurer la sécurité."
+      },
+      "sharing": {
+        "title": "Partage et divulgation d'informations",
+        "content": "Nous ne vendons, n'échangeons ni ne louons vos informations personnelles à des tiers. Nous pouvons partager des informations avec : partenaires de livraison (seulement les informations de livraison nécessaires), processeurs de paiement (pour le traitement des transactions), fournisseurs de services (qui assistent dans nos opérations sous stricte confidentialité), autorités légales (quand requis par la loi), et en cas de transfert d'entreprise (avec avis aux utilisateurs)."
       },
       "security": {
-        "title": "Sécurité des données",
-        "content": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre l'accès ou la divulgation non autorisés."
+        "title": "Sécurité et protection des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité complètes incluant : chiffrement des données en transit et au repos, traitement de paiement sécurisé par des partenaires certifiés, audits de sécurité réguliers et mises à jour, contrôles d'accès et formation des employés, stockage sécurisé des données avec systèmes de sauvegarde, et procédures de réponse aux incidents. Cependant, aucune méthode de transmission sur internet n'est sécurisée à 100%."
       },
       "rights": {
-        "title": "Vos droits",
-        "content": "Vous avez le droit d'accéder, de corriger ou de supprimer vos informations personnelles. Contactez-nous pour exercer ces droits."
+        "title": "Vos droits de confidentialité",
+        "content": "Vous avez le droit de : accéder à vos informations personnelles que nous détenons, corriger les informations inexactes ou incomplètes, supprimer vos informations personnelles (sous réserve des exigences légales), restreindre ou vous opposer à certains traitements, portabilité des données (recevoir vos données dans un format structuré), retirer le consentement pour les communications marketing, et déposer une plainte auprès des autorités de surveillance. Contactez-nous à privacy@jermmemories.am pour exercer ces droits."
+      },
+      "cookies": {
+        "title": "Cookies et technologies de suivi",
+        "content": "Nous utilisons des cookies et des technologies similaires pour : mémoriser vos préférences et paramètres, analyser comment vous utilisez nos services, fournir du contenu et des recommandations personnalisés, améliorer les performances de notre site web et application, et assurer la sécurité. Vous pouvez contrôler les paramètres des cookies via votre navigateur, mais désactiver les cookies peut affecter la fonctionnalité."
+      },
+      "retention": {
+        "title": "Rétention des données",
+        "content": "Nous conservons vos informations personnelles aussi longtemps que nécessaire pour fournir nos services et remplir les objectifs décrits dans cette politique. Les informations de compte sont conservées tant que votre compte est actif et pour une période raisonnable après fermeture. Les informations de commande sont conservées à des fins légales et commerciales. Les données marketing sont conservées jusqu'à ce que vous vous désinscriviez ou pendant un maximum de 3 ans."
       }
     }
   },
@@ -160,16 +200,36 @@
     "contactLink": "Contact",
     "terms": "Conditions d'utilisation",
     "privacy": "Politique de confidentialité",
-    "copyright": "© 2024 Jerm memories. Tous droits réservés."
+    "copyright": "© 2025 Jerm memories. Tous droits réservés."
   },
   "filter": {
+    "title": "Filtrer et Trier",
+    "subtitle": "Trouvez le bouquet parfait pour votre moment spécial",
+    "search": "Recherche",
+    "searchPlaceholder": "Rechercher des bouquets...",
+    "category": "Catégorie",
     "allCategories": "Toutes les catégories",
+    "sortBy": "Trier par",
     "sortNameAsc": "Nom A-Z",
     "sortNameDesc": "Nom Z-A",
     "sortPriceAsc": "Prix croissant",
     "sortPriceDesc": "Prix décroissant",
+    "sortNewest": "Plus récent",
+    "sortOldest": "Plus ancien",
+    "priceRange": "Gamme de prix",
+    "minPrice": "Prix min",
+    "maxPrice": "Prix max",
+    "availability": "Disponibilité",
+    "allAvailability": "Toute disponibilité",
+    "inStock": "En stock",
+    "lowStock": "Stock faible",
+    "outOfStock": "Rupture de stock",
+    "rating": "Note",
+    "allRatings": "Toutes les notes",
+    "advanced": "Avancé",
+    "active": "actif",
     "apply": "Appliquer les filtres",
-    "searchPlaceholder": "Rechercher des bouquets..."
+    "reset": "Réinitialiser"
   },
   "bouquets": {
     "schedule": "Programmer",

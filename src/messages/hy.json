@@ -66,7 +66,7 @@
     "contactLink": "Կապ",
     "terms": "Ծառայության պայմաններ",
     "privacy": "Գաղտնիության քաղաքականություն",
-    "copyright": "© 2024 Jerm Memories։ Բոլոր իրավունքները պաշտպանված են։"
+    "copyright": "© 2025 Jerm Memories։ Բոլոր իրավունքները պաշտպանված են։"
   },
   "terms": {
     "title": "Ծառայության պայմաններ",
@@ -178,13 +178,33 @@
     "download": "Ներբեռնել"
   },
   "filter": {
+    "title": "Ֆիլտրել և տեսակավորել",
+    "subtitle": "Գտեք կատարյալ ծաղկեփունջը ձեր հատուկ պահի համար",
+    "search": "Փնտրել",
+    "searchPlaceholder": "Փնտրել ծաղկեփնջեր...",
+    "category": "Կատեգորիա",
     "allCategories": "Բոլոր կատեգորիաները",
+    "sortBy": "Տեսակավորել ըստ",
     "sortNameAsc": "Անունը Ա-Ֆ",
     "sortNameDesc": "Անունը Ֆ-Ա",
     "sortPriceAsc": "Գին՝ ցածրից բարձր",
     "sortPriceDesc": "Գին՝ բարձրից ցածր",
+    "sortNewest": "Ամենանոր",
+    "sortOldest": "Ամենահին",
+    "priceRange": "Գնային տիրույթ",
+    "minPrice": "Նվազագույն գին",
+    "maxPrice": "Առավելագույն գին",
+    "availability": "Հասանելիություն",
+    "allAvailability": "Բոլոր հասանելիությունները",
+    "inStock": "Պահեստում",
+    "lowStock": "Ցածր պաշար",
+    "outOfStock": "Արտադրված",
+    "rating": "Գնահատական",
+    "allRatings": "Բոլոր գնահատականները",
+    "advanced": "Ընդլայնված",
+    "active": "ակտիվ",
     "apply": "Կիրառել ֆիլտրերը",
-    "searchPlaceholder": "Փնտրել ծաղկեփնջեր..."
+    "reset": "Վերակայել"
   },
   "bouquets": {
     "schedule": "Պլանավորել",

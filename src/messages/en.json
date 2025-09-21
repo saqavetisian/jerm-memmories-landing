@@ -66,7 +66,7 @@
     "contactLink": "Contact",
     "terms": "Terms of Use",
     "privacy": "Privacy Policy",
-    "copyright": "© 2024 Jerm memories. All rights reserved."
+    "copyright": "© 2025 Jerm memories. All rights reserved."
   },
   "terms": {
     "title": "Terms of Use",
@@ -74,23 +74,35 @@
     "sections": {
       "acceptance": {
         "title": "Acceptance of Terms",
-        "content": "By accessing and using our application, you accept and agree to be bound by the terms and provision of this agreement."
+        "content": "By accessing and using our application, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
       },
       "services": {
-        "title": "Services",
-        "content": "We provide bouquet delivery services with scheduling capabilities. Our services include delivery of flowers and personalized messages."
+        "title": "Services Description",
+        "content": "We provide bouquet delivery services with smart scheduling capabilities. Our services include: delivery of fresh flowers, personalized messages with QR codes, real-time delivery tracking, and flexible scheduling for special occasions. We currently deliver within Armenia with plans for international expansion."
       },
       "userResponsibilities": {
-        "title": "User Responsibilities",
-        "content": "Users are responsible for providing accurate delivery information and ensuring someone is available to receive deliveries."
+        "title": "User Responsibilities and Account Security",
+        "content": "Users are responsible for: providing accurate delivery information including recipient details and addresses, ensuring someone is available to receive deliveries at the specified time, maintaining the security of their account credentials, updating their information when changes occur, and complying with all applicable laws and regulations."
       },
       "payment": {
-        "title": "Payment Terms",
-        "content": "Payment is required at the time of order. We accept various payment methods as indicated during checkout."
+        "title": "Payment Terms and Pricing",
+        "content": "Payment is required at the time of order placement. We accept various payment methods including credit cards, debit cards, and mobile payment systems. All prices are displayed in Armenian Dram (AMD) and include applicable taxes. We reserve the right to change prices with 30 days notice. Free delivery is provided within Yerevan city limits."
       },
       "cancellation": {
-        "title": "Cancellation Policy",
-        "content": "Orders can be cancelled up to 24 hours before scheduled delivery. Refunds will be processed according to our refund policy."
+        "title": "Cancellation and Refund Policy",
+        "content": "Orders can be cancelled up to 24 hours before scheduled delivery without penalty. Cancellations made less than 24 hours before delivery may incur a 50% cancellation fee. Refunds will be processed within 5-7 business days to the original payment method. Custom or personalized orders may not be eligible for cancellation once production has begun."
+      },
+      "delivery": {
+        "title": "Delivery Terms and Conditions",
+        "content": "We strive to deliver on the scheduled date and time. Delivery times are estimates and may vary due to weather, traffic, or other circumstances beyond our control. If no one is available to receive the delivery, we will attempt to contact the recipient and may leave the bouquet in a safe location with photo confirmation. We are not responsible for items left unattended."
+      },
+      "limitations": {
+        "title": "Limitations of Liability",
+        "content": "Our liability is limited to the cost of the bouquet and delivery service. We are not liable for indirect, incidental, or consequential damages. We do not guarantee specific flower varieties due to seasonal availability and reserve the right to substitute with similar quality flowers."
+      },
+      "modifications": {
+        "title": "Modifications to Terms",
+        "content": "We reserve the right to modify these terms at any time. Users will be notified of significant changes via email or through the application. Continued use of our services after modifications constitutes acceptance of the new terms."
       }
     }
   },
@@ -99,24 +111,36 @@
     "lastUpdated": "Last updated: December 2024",
     "sections": {
       "dataCollection": {
-        "title": "Data Collection",
-        "content": "We only collect and use data that we need for providing our services. Your data will not be shared with third parties."
+        "title": "Information We Collect",
+        "content": "We collect information you provide directly to us, such as when you create an account, place an order, or contact us. This includes: personal information (name, email, phone number), delivery information (addresses, recipient details), payment information (processed securely through our payment partners), and communication preferences. We also collect usage data to improve our services."
       },
       "personalInfo": {
-        "title": "Personal Information",
-        "content": "We collect information such as name, address, phone number, and email address necessary for order processing and delivery."
+        "title": "Personal Information Details",
+        "content": "We collect: contact information (name, email, phone number), delivery addresses and recipient information, payment information (processed securely and not stored by us), account preferences and settings, communication history with our support team, and device information for app functionality. We do not collect sensitive personal information unless required for service delivery."
       },
       "usage": {
-        "title": "How We Use Your Data",
-        "content": "Your data is used solely for order processing, delivery coordination, and customer service. We do not sell or share your information."
+        "title": "How We Use Your Information",
+        "content": "We use your information to: process and fulfill your orders, schedule and coordinate deliveries, provide customer support and respond to inquiries, send important updates about your orders, improve our services and develop new features, send marketing communications (with your consent), comply with legal obligations, and prevent fraud and ensure security."
+      },
+      "sharing": {
+        "title": "Information Sharing and Disclosure",
+        "content": "We do not sell, trade, or rent your personal information to third parties. We may share information with: delivery partners (only necessary delivery information), payment processors (for transaction processing), service providers (who assist in our operations under strict confidentiality), legal authorities (when required by law), and in case of business transfers (with notice to users)."
       },
       "security": {
-        "title": "Data Security",
-        "content": "We implement appropriate security measures to protect your personal information from unauthorized access or disclosure."
+        "title": "Data Security and Protection",
+        "content": "We implement comprehensive security measures including: encryption of data in transit and at rest, secure payment processing through certified partners, regular security audits and updates, access controls and employee training, secure data storage with backup systems, and incident response procedures. However, no method of transmission over the internet is 100% secure."
       },
       "rights": {
-        "title": "Your Rights",
-        "content": "You have the right to access, correct, or delete your personal information. Contact us to exercise these rights."
+        "title": "Your Privacy Rights",
+        "content": "You have the right to: access your personal information we hold, correct inaccurate or incomplete information, delete your personal information (subject to legal requirements), restrict or object to certain processing, data portability (receive your data in a structured format), withdraw consent for marketing communications, and lodge a complaint with supervisory authorities. Contact us at privacy@jermmemories.am to exercise these rights."
+      },
+      "cookies": {
+        "title": "Cookies and Tracking Technologies",
+        "content": "We use cookies and similar technologies to: remember your preferences and settings, analyze how you use our services, provide personalized content and recommendations, improve our website and app performance, and ensure security. You can control cookie settings through your browser, but disabling cookies may affect functionality."
+      },
+      "retention": {
+        "title": "Data Retention",
+        "content": "We retain your personal information for as long as necessary to provide our services and fulfill the purposes outlined in this policy. Account information is retained while your account is active and for a reasonable period after closure. Order information is retained for legal and business purposes. Marketing data is retained until you opt out or for a maximum of 3 years."
       }
     }
   },
@@ -178,13 +202,33 @@
     "download": "Download"
   },
   "filter": {
+    "title": "Filter & Sort",
+    "subtitle": "Find the perfect bouquet for your special moment",
+    "search": "Search",
+    "searchPlaceholder": "Search bouquets...",
+    "category": "Category",
     "allCategories": "All Categories",
+    "sortBy": "Sort By",
     "sortNameAsc": "Name A-Z",
     "sortNameDesc": "Name Z-A",
     "sortPriceAsc": "Price Low-High",
     "sortPriceDesc": "Price High-Low",
+    "sortNewest": "Newest First",
+    "sortOldest": "Oldest First",
+    "priceRange": "Price Range",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price",
+    "availability": "Availability",
+    "allAvailability": "All Availability",
+    "inStock": "In Stock",
+    "lowStock": "Low Stock",
+    "outOfStock": "Out of Stock",
+    "rating": "Rating",
+    "allRatings": "All Ratings",
+    "advanced": "Advanced",
+    "active": "active",
     "apply": "Apply Filters",
-    "searchPlaceholder": "Search bouquets..."
+    "reset": "Reset Filters"
   },
   "bouquets": {
     "schedule": "Schedule",

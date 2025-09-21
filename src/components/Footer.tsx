@@ -34,16 +34,16 @@ export default function Footer() {
 
   return (
     <motion.footer 
-      className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8"
+      className="bg-gray-900 text-white py-8 sm:py-12 px-4 sm:px-6 lg:px-8"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-100px" }}
     >
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
           <motion.div 
-            className="col-span-2"
+            className="sm:col-span-2"
             variants={itemVariants}
           >
             <div className="flex items-center space-x-2 mb-4">
@@ -54,7 +54,7 @@ export default function Footer() {
               >
                 <Heart className="w-5 h-5 text-white" />
               </motion.div>
-              <h3 className="text-2xl font-bold text-blue-400">{t('appName')}</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-blue-400">{t('appName')}</h3>
             </div>
             <p className="text-gray-300 mb-4">
               {t('slogan')}
@@ -66,8 +66,8 @@ export default function Footer() {
               <Mail className="w-5 h-5 text-blue-400" />
               <span>{t('contact')}</span>
             </h4>
-            <p className="text-gray-300">info@jermmemories.com</p>
-            <p className="text-gray-300">support@jermmemories.com</p>
+            <p className="text-gray-300">info@jermmemories.am</p>
+            <p className="text-gray-300">support@jermmemories.am</p>
           </motion.div>
           
           <motion.div variants={itemVariants}>

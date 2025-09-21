@@ -12,7 +12,10 @@ export default function TermsPage() {
     'services',
     'userResponsibilities',
     'payment',
-    'cancellation'
+    'cancellation',
+    'delivery',
+    'limitations',
+    'modifications'
   ];
 
   const containerVariants = {
@@ -103,8 +106,8 @@ export default function TermsPage() {
             >
               <p className="text-gray-600 text-sm">
                 If you have any questions about these Terms of Use, please contact us at{' '}
-                <Link href="mailto:legal@jermmemories.com" className="text-blue-600 hover:text-blue-700">
-                  legal@jermmemories.com
+                <Link href="mailto:legal@jermmemories.am" className="text-blue-600 hover:text-blue-700">
+                  legal@jermmemories.am
                 </Link>
               </p>
             </motion.div>

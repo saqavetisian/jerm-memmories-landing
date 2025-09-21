@@ -11,8 +11,11 @@ export default function PrivacyPage() {
     'dataCollection',
     'personalInfo',
     'usage',
+    'sharing',
     'security',
-    'rights'
+    'rights',
+    'cookies',
+    'retention'
   ];
 
   const containerVariants = {
@@ -103,8 +106,8 @@ export default function PrivacyPage() {
             >
               <p className="text-gray-600 text-sm">
                 If you have any questions about our Privacy Policy, please contact us at{' '}
-                <Link href="mailto:privacy@jermmemories.com" className="text-blue-600 hover:text-blue-700">
-                  privacy@jermmemories.com
+                <Link href="mailto:privacy@jermmemories.am" className="text-blue-600 hover:text-blue-700">
+                  privacy@jermmemories.am
                 </Link>
               </p>
             </motion.div>

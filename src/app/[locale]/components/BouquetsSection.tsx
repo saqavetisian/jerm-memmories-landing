@@ -3,6 +3,7 @@ import BouquetsList, {Bouquet} from './BouquetsList';
 import api from '../../../utils/api';
 import Link from "next/link";
 import {useLocale} from "next-intl";
+import { BouquetListSkeleton } from '../../../components/SkeletonLoader';
 
 export default function BouquetsSection() {
   const locale = useLocale();
@@ -19,8 +20,9 @@ export default function BouquetsSection() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return <div className="text-center py-12">Loading bouquets...</div>;
+  if (loading) return <BouquetListSkeleton count={4} />;
   if (error) return <div className="text-center py-12 text-red-600">{error}</div>;
+  
   return (
       <>
         <BouquetsList bouquets={bouquets} />

@@ -57,7 +57,7 @@
     "android": "Скачать для Android"
   },
   "footer": {
-    "copyright": "© 2024 Баремтутюн. Все права защищены.",
+    "copyright": "© 2025 Баремтутюн. Все права защищены.",
     "contact": "Связаться",
     "support": "Поддержка",
     "appName": "Jerm memories",
@@ -178,13 +178,33 @@
     "download": "Скачать"
   },
   "filter": {
+    "title": "Фильтр и сортировка",
+    "subtitle": "Найдите идеальный букет для вашего особого момента",
+    "search": "Поиск",
+    "searchPlaceholder": "Поиск букетов...",
+    "category": "Категория",
     "allCategories": "Все категории",
+    "sortBy": "Сортировать по",
     "sortNameAsc": "Имя А-Я",
     "sortNameDesc": "Имя Я-А",
     "sortPriceAsc": "Цена по возрастанию",
     "sortPriceDesc": "Цена по убыванию",
+    "sortNewest": "Сначала новые",
+    "sortOldest": "Сначала старые",
+    "priceRange": "Ценовой диапазон",
+    "minPrice": "Мин. цена",
+    "maxPrice": "Макс. цена",
+    "availability": "Наличие",
+    "allAvailability": "Все варианты",
+    "inStock": "В наличии",
+    "lowStock": "Мало в наличии",
+    "outOfStock": "Нет в наличии",
+    "rating": "Рейтинг",
+    "allRatings": "Все рейтинги",
+    "advanced": "Расширенные",
+    "active": "активных",
     "apply": "Применить фильтры",
-    "searchPlaceholder": "Поиск букетов..."
+    "reset": "Сбросить"
   },
   "bouquets": {
     "schedule": "Запланировать",

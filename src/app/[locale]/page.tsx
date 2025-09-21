@@ -20,6 +20,7 @@ import { useState, useEffect } from 'react';
 import api from '../../utils/api';
 import BouquetsSection from './components/BouquetsSection';
 import BouquetsFilter from './components/BouquetsFilter';
+import { FullPageSkeleton } from '../../components/PageSkeleton';
 
 interface Category {
   id: number;
@@ -31,6 +32,7 @@ export default function Home() {
   
   // Bouquets data state
   const [categories, setCategories] = useState<Category[]>([]);
+  const [isPageLoading, setIsPageLoading] = useState(true);
 
   // Modal state
   const [showModal, setShowModal] = useState(false);
@@ -61,12 +63,25 @@ export default function Home() {
   // Only fetch initial bouquets and categories once
   useEffect(() => {
     const fetchInitial = async () => {
-    const [catRes] = await Promise.all([
-      api.get<{ data: Category[] }>('/guest/categories'),
-    ]);
-    setCategories(catRes.data || []);
+      try {
+        const [catRes] = await Promise.all([
+          api.get<{ data: Category[] }>('/guest/categories'),
+        ]);
+        setCategories(catRes.data || []);
+      } catch (error) {
+        console.error('Error fetching initial data:', error);
+      } finally {
+        setIsPageLoading(false);
+      }
     };
     fetchInitial();
+  }, []);
+
+  // Prevent hydration mismatch by not showing skeleton on initial render
+  const [isClient, setIsClient] = useState(false);
+  
+  useEffect(() => {
+    setIsClient(true);
   }, []);
 
   const handleNext = () => {
@@ -223,13 +238,18 @@ export default function Home() {
     }
   };
 
+  // Show skeleton loader while page is loading (only on client to prevent hydration mismatch)
+  if (isClient && isPageLoading) {
+    return <FullPageSkeleton />;
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-blue-100 relative overflow-hidden">
       {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8">
-        {/* Floating Flowers */}
+      <section className="relative py-12 sm:py-20 px-4 sm:px-6 lg:px-8">
+        {/* Floating Flowers - Hidden on mobile */}
         <motion.div
-          className="absolute top-20 left-10 text-primary-400 opacity-60"
+          className="hidden sm:block absolute top-20 left-10 text-primary-400 opacity-60"
           variants={flowerVariants}
           initial="hidden"
           animate="visible"
@@ -239,7 +259,7 @@ export default function Home() {
         </motion.div>
         
         <motion.div
-          className="absolute top-40 right-20 text-primary-300 opacity-50"
+          className="hidden sm:block absolute top-40 right-20 text-primary-300 opacity-50"
           variants={flowerVariants}
           initial="hidden"
           animate="visible"
@@ -269,38 +289,38 @@ export default function Home() {
             </motion.div>
             
             <motion.h1 
-              className="text-4xl md:text-6xl font-bold text-gray-900 mb-6"
+              className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight"
               variants={itemVariants}
             >
               {t('hero.title')}
             </motion.h1>
             <motion.p 
-              className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto"
+              className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 max-w-3xl mx-auto px-4 sm:px-0"
               variants={itemVariants}
             >
               {t('hero.subtitle')}
             </motion.p>
             
             <motion.div
-              className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+              className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4 sm:px-0"
               variants={containerVariants}
             >
               <motion.button
                 variants={itemVariants}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-800 transition-colors shadow-lg flex items-center space-x-2"
+                className="bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-blue-800 transition-colors shadow-lg flex items-center space-x-2 w-full sm:w-auto justify-center"
               >
-                <Calendar className="w-5 h-5" />
+                <Calendar className="w-4 h-4 sm:w-5 sm:h-5" />
                 <span>{t('hero.cta')}</span>
               </motion.button>
               
               <motion.div
                 variants={itemVariants}
-                className="flex items-center space-x-2 text-blue-700 font-semibold"
+                className="flex items-center space-x-2 text-blue-700 font-semibold text-sm sm:text-base"
               >
-                <Heart className="w-5 h-5 animate-pulse" />
-                <span>Schedule Once, Remember Forever</span>
+                <Heart className="w-4 h-4 sm:w-5 sm:h-5 animate-pulse" />
+                <span className="text-center">Schedule Once, Remember Forever</span>
               </motion.div>
             </motion.div>
           </motion.div>
@@ -316,7 +336,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary-50 to-blue-100">
+      <section id="about" className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary-50 to-blue-100">
         <div className="max-w-7xl mx-auto">
           <motion.div
             variants={containerVariants}
@@ -339,20 +359,20 @@ export default function Home() {
             </motion.div>
             
             <motion.h2 
-              className="text-3xl md:text-4xl font-bold text-gray-900 mb-6"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6"
               variants={itemVariants}
             >
               {t('about.title')}
             </motion.h2>
             <motion.p 
-              className="text-lg text-gray-600 max-w-4xl mx-auto"
+              className="text-base sm:text-lg text-gray-600 max-w-4xl mx-auto px-4 sm:px-0"
               variants={itemVariants}
             >
               {t('about.description')}
             </motion.p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
             <motion.div
               variants={containerVariants}
               initial="hidden"
@@ -422,7 +442,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="services" className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <motion.div
             variants={containerVariants}
@@ -445,13 +465,13 @@ export default function Home() {
             </motion.div>
             
             <motion.h2 
-              className="text-3xl md:text-4xl font-bold text-gray-900 mb-6"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6"
               variants={itemVariants}
             >
               {t('services.title')}
             </motion.h2>
             <motion.p 
-              className="text-lg text-gray-600 max-w-4xl mx-auto"
+              className="text-base sm:text-lg text-gray-600 max-w-4xl mx-auto px-4 sm:px-0"
               variants={itemVariants}
             >
               {t('services.description')}
@@ -459,7 +479,7 @@ export default function Home() {
           </motion.div>
 
           <motion.div 
-            className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -491,7 +511,7 @@ export default function Home() {
       </section>
 
       {/* Download Section */}
-      <section id="download" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary-50 to-blue-100">
+      <section id="download" className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary-50 to-blue-100">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             variants={containerVariants}
@@ -513,28 +533,28 @@ export default function Home() {
             </motion.div>
             
             <motion.h2 
-              className="text-3xl md:text-4xl font-bold text-gray-900 mb-6"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6"
               variants={itemVariants}
             >
               {t('download.title')}
             </motion.h2>
             <motion.p 
-              className="text-lg text-gray-600 mb-8"
+              className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 px-4 sm:px-0"
               variants={itemVariants}
             >
               {t('download.subtitle')}
             </motion.p>
             <motion.div 
-              className="flex flex-col sm:flex-row gap-4 justify-center"
+              className="flex flex-col sm:flex-row gap-4 justify-center px-4 sm:px-0"
               variants={containerVariants}
             >
               <motion.button
                 variants={itemVariants}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-gray-800 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-900 transition-colors flex items-center justify-center shadow-lg"
+                className="bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-gray-900 transition-colors flex items-center justify-center shadow-lg w-full sm:w-auto"
               >
-                <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                 </svg>
                 {t('download.ios')}
@@ -543,9 +563,9 @@ export default function Home() {
                 variants={itemVariants}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center shadow-lg"
+                className="bg-blue-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center shadow-lg w-full sm:w-auto"
               >
-                <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
                 </svg>
                 {t('download.android')}
@@ -562,16 +582,16 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
-            className="bg-white rounded-2xl max-w-md w-full max-h-[90vh] overflow-y-auto"
+            className="bg-white rounded-2xl max-w-md w-full max-h-[95vh] overflow-y-auto"
           >
-            <div className="p-6">
-              <div className="flex justify-between items-center mb-6">
-                <h3 className="text-xl font-bold text-gray-900">Schedule Delivery</h3>
+            <div className="p-4 sm:p-6">
+              <div className="flex justify-between items-center mb-4 sm:mb-6">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900">Schedule Delivery</h3>
                 <button
                   onClick={() => setShowModal(false)}
-                  className="text-gray-400 hover:text-gray-600"
+                  className="text-gray-400 hover:text-gray-600 p-1"
                 >
-                  <X className="w-6 h-6" />
+                  <X className="w-5 h-5 sm:w-6 sm:h-6" />
                 </button>
               </div>
 
