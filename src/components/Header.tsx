@@ -10,7 +10,8 @@ import {
   Download,
   ShoppingBag,
   Star,
-  Menu
+  Menu,
+  Sparkles
 } from 'lucide-react';
 import { useBasket } from '@/contexts/BasketContext';
 import { useState, useEffect } from 'react';
@@ -95,7 +96,17 @@ export default function Header({ showNav = true }: HeaderProps) {
                       transition={{ duration: 0.2 }}
                   >
                     <Gift className="w-4 h-4" />
-                    <span>Bouquets</span>
+                    <span>{t('bouquets')}</span>
+                  </motion.span>
+                </Link>
+                <Link href={`/${locale}/services`}>
+                  <motion.span
+                      className="text-gray-700 hover:text-blue-700 transition-colors flex items-center space-x-1"
+                      whileHover={{ y: -2 }}
+                      transition={{ duration: 0.2 }}
+                  >
+                    <Sparkles className="w-4 h-4" />
+                    <span>{t('services')}</span>
                   </motion.span>
                 </Link>
                 <Link href={`/${locale}#download`}>

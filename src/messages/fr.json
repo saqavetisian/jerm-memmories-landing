@@ -2,6 +2,7 @@
   "navigation": {
     "home": "Accueil",
     "about": "À propos",
+    "bouquets": "Bouquets",
     "services": "Services",
     "download": "Télécharger l'app",
     "terms": "Conditions d'utilisation",
@@ -187,6 +188,7 @@
   "header": {
     "appName": "Jerm memories",
     "about": "À propos",
+    "bouquets": "Bouquets",
     "services": "Services",
     "download": "Télécharger"
   },
@@ -196,6 +198,7 @@
     "contact": "Contact",
     "support": "Support",
     "about": "À propos de nous",
+    "services": "Services",
     "faq": "FAQ",
     "contactLink": "Contact",
     "terms": "Conditions d'utilisation",
@@ -230,6 +233,184 @@
     "active": "actif",
     "apply": "Appliquer les filtres",
     "reset": "Réinitialiser"
+  },
+  "success": {
+    "title": "Succès !",
+    "subtitle": "Votre commande a été passée avec succès",
+    "description": "Merci d'avoir choisi Jerm memories. Nous sommes ravis de rendre votre moment spécial inoubliable !",
+    "orderDetails": "Détails de la commande",
+    "orderNumber": "Numéro de commande",
+    "deliveryDate": "Date de livraison",
+    "totalAmount": "Montant total",
+    "continueShopping": "Continuer les achats",
+    "backToHome": "Retour à l'accueil",
+    "whatsNext": "Et maintenant ?",
+    "confirmationEmail": "Vous recevrez un email de confirmation sous peu",
+    "deliveryTracking": "Suivez votre livraison en temps réel",
+    "specialSurprise": "Une surprise spéciale vous attend !"
+  },
+  "failure": {
+    "title": "Oups !",
+    "subtitle": "Quelque chose s'est mal passé",
+    "description": "Nous avons rencontré un problème lors du traitement de votre demande. Ne vous inquiétez pas, nous sommes là pour vous aider !",
+    "errorDetails": "Détails de l'erreur",
+    "errorCode": "Code d'erreur",
+    "timestamp": "Horodatage",
+    "possibleCause": "Cause possible",
+    "paymentIssue": "Problème de traitement du paiement",
+    "tryAgain": "Réessayer",
+    "retrying": "Nouvelle tentative...",
+    "backToHome": "Retour à l'accueil",
+    "needHelp": "Besoin d'aide ?",
+    "emailSupport": "Support par email",
+    "phoneSupport": "Support téléphonique",
+    "troubleshooting": "Conseils de dépannage",
+    "checkConnection": "Vérifiez votre connexion internet",
+    "verifyPayment": "Vérifiez vos informations de paiement",
+    "clearCache": "Effacez le cache de votre navigateur et réessayez"
+  },
+  "services": {
+    "title": "Nos Services",
+    "description": "L'idée est de choisir des bouquets, de planifier tous les événements et nous livrerons vos bouquets à temps avec de petites surprises.",
+    "features": [
+      "Choisissez parmi de beaux bouquets",
+      "Planifiez la livraison pour des dates spéciales",
+      "Messages personnalisés avec codes QR",
+      "Livraison gratuite à Erevan",
+      "Meilleurs prix garantis"
+    ],
+    "hero": {
+      "title": "Nos Services",
+      "subtitle": "Créer des moments inoubliables pour chaque occasion spéciale",
+      "tagline": "Où la beauté rencontre la célébration"
+    },
+    "featuresInfo": {
+      "title": "Ce que nous offrons"
+    },
+    "packages": {
+      "title": "Forfaits de service",
+      "popular": "Le plus populaire"
+    },
+    "cta": {
+      "title": "Prêt à créer de la magie ?",
+      "subtitle": "Laissez-nous vous aider à planifier la célébration parfaite",
+      "schedule": "Planifier une consultation",
+      "browse": "Parcourir les bouquets"
+    },
+    "weddings": {
+      "title": "Services de mariage",
+      "subtitle": "Votre jour parfait mérite des fleurs parfaites",
+      "description": "Des cérémonies intimes aux grandes célébrations, nous créons de magnifiques arrangements floraux qui capturent la romance et la beauté de votre jour spécial.",
+      "features": {
+        "bridalBouquet": "Bouquets de mariée sur mesure",
+        "ceremonyDecor": "Décorations de cérémonie",
+        "receptionCenterpieces": "Centres de table de réception",
+        "boutonnieres": "Boutonnières et corsages",
+        "flowerGirlBasket": "Paniers de demoiselle d'honneur",
+        "archDecorations": "Décorations d'arche et d'autel"
+      },
+      "packages": {
+        "basic": {
+          "name": "Essentiel",
+          "price": "89 900 AMD",
+          "bridalBouquet": "Bouquet de mariée",
+          "boutonnieres": "Boutonnières (4)",
+          "consultation": "Consultation de design"
+        },
+        "premium": {
+          "name": "Complet",
+          "price": "179 900 AMD",
+          "everything": "Tout dans Essentiel",
+          "ceremonyDecor": "Décorations de cérémonie",
+          "receptionCenterpieces": "Centres de table de réception (6)",
+          "setup": "Installation et démontage"
+        },
+        "luxury": {
+          "name": "Luxe",
+          "price": "299 900 AMD",
+          "everything": "Tout dans Complet",
+          "archDecorations": "Décorations d'arche",
+          "aisleRunner": "Tapis d'allée avec pétales",
+          "coordination": "Coordination du jour J"
+        }
+      }
+    },
+    "birthdays": {
+      "title": "Célébrations d'anniversaire",
+      "subtitle": "Rendre les anniversaires extra spéciaux",
+      "description": "Que ce soit un anniversaire important ou une simple célébration, nous créons des arrangements joyeux qui apportent des sourires et créent des souvenirs durables.",
+      "features": {
+        "birthdayBouquets": "Bouquets d'anniversaire",
+        "partyDecorations": "Décorations de fête",
+        "balloonArrangements": "Arrangements de ballons",
+        "centerpieces": "Centres de table",
+        "giftWrapping": "Service d'emballage cadeau",
+        "surpriseDelivery": "Livraison surprise"
+      },
+      "packages": {
+        "simple": {
+          "name": "Simple",
+          "price": "14 900 AMD",
+          "bouquet": "Bouquet d'anniversaire",
+          "card": "Carte personnalisée",
+          "delivery": "Livraison gratuite"
+        },
+        "celebration": {
+          "name": "Célébration",
+          "price": "29 900 AMD",
+          "bouquet": "Bouquet d'anniversaire",
+          "balloons": "Arrangement de ballons",
+          "decorations": "Décorations de fête",
+          "setup": "Service d'installation"
+        },
+        "party": {
+          "name": "Fête",
+          "price": "59 900 AMD",
+          "everything": "Tout dans Célébration",
+          "centerpieces": "Centres de table",
+          "arch": "Arche décorative",
+          "coordination": "Coordination d'événement"
+        }
+      }
+    },
+    "corporate": {
+      "title": "Événements d'entreprise",
+      "subtitle": "Élégance professionnelle pour les occasions d'affaires",
+      "description": "Des réunions de conseil aux grandes ouvertures, nous fournissons des arrangements floraux sophistiqués qui améliorent votre environnement d'entreprise et impressionnent vos clients.",
+      "features": {
+        "receptionArrangements": "Arrangements de réception",
+        "conferenceDecor": "Décor de salle de conférence",
+        "lobbyDisplays": "Expositions de hall",
+        "eventCenterpieces": "Centres de table d'événement",
+        "executiveGifts": "Cadeaux exécutifs",
+        "regularMaintenance": "Maintenance régulière"
+      },
+      "packages": {
+        "standard": {
+          "name": "Standard",
+          "price": "59 900 AMD",
+          "reception": "Arrangements de réception",
+          "consultation": "Consultation de design",
+          "delivery": "Livraison professionnelle"
+        },
+        "premium": {
+          "name": "Premium",
+          "price": "119 900 AMD",
+          "everything": "Tout dans Standard",
+          "conference": "Décor de salle de conférence",
+          "lobby": "Expositions de hall",
+          "maintenance": "Maintenance hebdomadaire"
+        },
+        "enterprise": {
+          "name": "Entreprise",
+          "price": "239 900 AMD",
+          "everything": "Tout dans Premium",
+          "multipleLocations": "Plusieurs emplacements",
+          "regularService": "Plan de service régulier",
+          "dedicatedManager": "Gestionnaire de compte dédié"
+        }
+      }
+    }
   },
   "bouquets": {
     "schedule": "Programmer",

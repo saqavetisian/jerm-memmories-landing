@@ -79,6 +79,9 @@ export default function Footer() {
               <Link href={`/${locale}/about`} className="block text-gray-300 hover:text-white transition-colors">
                 {t('about')}
               </Link>
+              <Link href={`/${locale}/services`} className="block text-gray-300 hover:text-white transition-colors">
+                {t('services')}
+              </Link>
               <Link href={`/${locale}/faq`} className="block text-gray-300 hover:text-white transition-colors">
                 {t('faq')}
               </Link>

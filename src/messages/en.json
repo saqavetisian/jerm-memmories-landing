@@ -2,6 +2,7 @@
   "navigation": {
     "home": "Home",
     "about": "About Us",
+    "bouquets": "Bouquets",
     "services": "Services",
     "download": "Download App",
     "terms": "Terms of Use",
@@ -62,6 +63,7 @@
     "contact": "Contact",
     "support": "Support",
     "about": "About Us",
+    "services": "Services",
     "faq": "FAQ",
     "contactLink": "Contact",
     "terms": "Terms of Use",
@@ -198,6 +200,7 @@
   "header": {
     "appName": "Jerm memories",
     "about": "About",
+    "bouquets": "Bouquets",
     "services": "Services",
     "download": "Download"
   },
@@ -229,6 +232,184 @@
     "active": "active",
     "apply": "Apply Filters",
     "reset": "Reset Filters"
+  },
+  "success": {
+    "title": "Success!",
+    "subtitle": "Your order has been placed successfully",
+    "description": "Thank you for choosing Jerm memories. We're excited to make your special moment unforgettable!",
+    "orderDetails": "Order Details",
+    "orderNumber": "Order Number",
+    "deliveryDate": "Delivery Date",
+    "totalAmount": "Total Amount",
+    "continueShopping": "Continue Shopping",
+    "backToHome": "Back to Home",
+    "whatsNext": "What's Next?",
+    "confirmationEmail": "You'll receive a confirmation email shortly",
+    "deliveryTracking": "Track your delivery in real-time",
+    "specialSurprise": "A special surprise awaits you!"
+  },
+  "failure": {
+    "title": "Oops!",
+    "subtitle": "Something went wrong",
+    "description": "We encountered an issue while processing your request. Don't worry, we're here to help!",
+    "errorDetails": "Error Details",
+    "errorCode": "Error Code",
+    "timestamp": "Timestamp",
+    "possibleCause": "Possible Cause",
+    "paymentIssue": "Payment processing issue",
+    "tryAgain": "Try Again",
+    "retrying": "Retrying...",
+    "backToHome": "Back to Home",
+    "needHelp": "Need Help?",
+    "emailSupport": "Email Support",
+    "phoneSupport": "Phone Support",
+    "troubleshooting": "Troubleshooting Tips",
+    "checkConnection": "Check your internet connection",
+    "verifyPayment": "Verify your payment information",
+    "clearCache": "Clear your browser cache and try again"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "The idea is to choose bouquets, schedule all events and we will deliver your bouquets at time with little surprises.",
+    "features": [
+      "Choose from beautiful bouquets",
+      "Schedule delivery for special dates",
+      "Personalized messages with QR codes",
+      "Free delivery in Yerevan",
+      "Best prices guaranteed"
+    ],
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Creating unforgettable moments for every special occasion",
+      "tagline": "Where beauty meets celebration"
+    },
+    "featuresInfo": {
+      "title": "What We Offer"
+    },
+    "packages": {
+      "title": "Service Packages",
+      "popular": "Most Popular"
+    },
+    "cta": {
+      "title": "Ready to Create Magic?",
+      "subtitle": "Let us help you plan the perfect celebration",
+      "schedule": "Schedule Consultation",
+      "browse": "Browse Bouquets"
+    },
+    "weddings": {
+      "title": "Wedding Services",
+      "subtitle": "Your perfect day deserves perfect flowers",
+      "description": "From intimate ceremonies to grand celebrations, we create stunning floral arrangements that capture the romance and beauty of your special day.",
+      "features": {
+        "bridalBouquet": "Custom bridal bouquets",
+        "ceremonyDecor": "Ceremony decorations",
+        "receptionCenterpieces": "Reception centerpieces",
+        "boutonnieres": "Boutonnieres and corsages",
+        "flowerGirlBasket": "Flower girl baskets",
+        "archDecorations": "Arch and altar decorations"
+      },
+      "packages": {
+        "basic": {
+          "name": "Essential",
+          "price": "89,900 AMD",
+          "bridalBouquet": "Bridal bouquet",
+          "boutonnieres": "Boutonnieres (4)",
+          "consultation": "Design consultation"
+        },
+        "premium": {
+          "name": "Complete",
+          "price": "179,900 AMD",
+          "everything": "Everything in Essential",
+          "ceremonyDecor": "Ceremony decorations",
+          "receptionCenterpieces": "Reception centerpieces (6)",
+          "setup": "Setup and breakdown"
+        },
+        "luxury": {
+          "name": "Luxury",
+          "price": "299,900 AMD",
+          "everything": "Everything in Complete",
+          "archDecorations": "Arch decorations",
+          "aisleRunner": "Aisle runner with petals",
+          "coordination": "Day-of coordination"
+        }
+      }
+    },
+    "birthdays": {
+      "title": "Birthday Celebrations",
+      "subtitle": "Making birthdays extra special",
+      "description": "Whether it's a milestone birthday or a simple celebration, we create joyful arrangements that bring smiles and create lasting memories.",
+      "features": {
+        "birthdayBouquets": "Birthday bouquets",
+        "partyDecorations": "Party decorations",
+        "balloonArrangements": "Balloon arrangements",
+        "centerpieces": "Table centerpieces",
+        "giftWrapping": "Gift wrapping service",
+        "surpriseDelivery": "Surprise delivery"
+      },
+      "packages": {
+        "simple": {
+          "name": "Simple",
+          "price": "14,900 AMD",
+          "bouquet": "Birthday bouquet",
+          "card": "Personalized card",
+          "delivery": "Free delivery"
+        },
+        "celebration": {
+          "name": "Celebration",
+          "price": "29,900 AMD",
+          "bouquet": "Birthday bouquet",
+          "balloons": "Balloon arrangement",
+          "decorations": "Party decorations",
+          "setup": "Setup service"
+        },
+        "party": {
+          "name": "Party",
+          "price": "59,900 AMD",
+          "everything": "Everything in Celebration",
+          "centerpieces": "Table centerpieces",
+          "arch": "Decorative arch",
+          "coordination": "Event coordination"
+        }
+      }
+    },
+    "corporate": {
+      "title": "Corporate Events",
+      "subtitle": "Professional elegance for business occasions",
+      "description": "From board meetings to grand openings, we provide sophisticated floral arrangements that enhance your corporate environment and impress your clients.",
+      "features": {
+        "receptionArrangements": "Reception arrangements",
+        "conferenceDecor": "Conference room decor",
+        "lobbyDisplays": "Lobby displays",
+        "eventCenterpieces": "Event centerpieces",
+        "executiveGifts": "Executive gifts",
+        "regularMaintenance": "Regular maintenance"
+      },
+      "packages": {
+        "standard": {
+          "name": "Standard",
+          "price": "59,900 AMD",
+          "reception": "Reception arrangements",
+          "consultation": "Design consultation",
+          "delivery": "Professional delivery"
+        },
+        "premium": {
+          "name": "Premium",
+          "price": "119,900 AMD",
+          "everything": "Everything in Standard",
+          "conference": "Conference room decor",
+          "lobby": "Lobby displays",
+          "maintenance": "Weekly maintenance"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "239,900 AMD",
+          "everything": "Everything in Premium",
+          "multipleLocations": "Multiple locations",
+          "regularService": "Regular service schedule",
+          "dedicatedManager": "Dedicated account manager"
+        }
+      }
+    }
   },
   "bouquets": {
     "schedule": "Schedule",

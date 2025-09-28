@@ -468,13 +468,13 @@ export default function Home() {
               className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6"
               variants={itemVariants}
             >
-              {t('services.title')}
+              {t('services.hero.title')}
             </motion.h2>
             <motion.p 
               className="text-base sm:text-lg text-gray-600 max-w-4xl mx-auto px-4 sm:px-0"
               variants={itemVariants}
             >
-              {t('services.description')}
+              {t('services.hero.subtitle')}
             </motion.p>
           </motion.div>
 

@@ -9,7 +9,8 @@ import {
   Download,
   ShoppingBag,
   Star,
-  X
+  X,
+  Sparkles
 } from 'lucide-react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
@@ -94,7 +95,16 @@ export default function MobileDrawer({ isOpen, onClose }: MobileDrawerProps) {
                     className="flex items-center space-x-3 p-3 rounded-lg text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
                   >
                     <Gift className="w-5 h-5" />
-                    <span className="font-medium">Bouquets</span>
+                    <span className="font-medium">{t('bouquets')}</span>
+                  </Link>
+                  
+                  <Link 
+                    href={`/${locale}/services`}
+                    onClick={onClose}
+                    className="flex items-center space-x-3 p-3 rounded-lg text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                  >
+                    <Sparkles className="w-5 h-5" />
+                    <span className="font-medium">{t('services')}</span>
                   </Link>
                   
                   <Link 
